@@ -390,43 +390,43 @@ button:hover {
 }
 
 
-/* Services */
+/* Professional Experience */
 
-.my-services .col-md-6 {
+.professional-experience .col-md-6 {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.service-item {
+.work-item {
     margin-bottom: 10px;
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
 }
 
-.service-item h4 {
+.work-item h4 {
     transition: all 0.5s;
 }
 
-.service-item p {
+.work-item p {
     transition: all 0.5s;
 }
 
-.service-item:hover {
+.work-item:hover {
     background-color: rgba(250, 250, 250, 1);
 }
 
-.service-item:hover h4 {
+.work-item:hover h4 {
     color: #1e1e1e;
 }
 
-.service-item:hover p {
+.work-item:hover p {
     color: #4a4a4a;
 }
 
-.service-item .service-icon {
-    width: 70px;
-    height: 70px;
+.work-item .work-icon {
+    width: 90px;
+    height: 90px;
     display: inline-block;
     margin-bottom: 30px;
     background-size: cover;
@@ -434,39 +434,81 @@ button:hover {
     transition: all 0.5s;
 }
 
-.service-item .first-service-icon {
+.work-item .first-work-icon {
     background-image: url(../images/wells-fargo-logo.png);
 }
 
-.service-item:hover .first-service-icon {
+.work-item:hover .first-work-icon {
     background-image: url(../images/wells-fargo-logo.png);
 }
 
-.service-item .second-service-icon {
+.work-item .second-work-icon {
     background-image: url(../images/ey-logo.png);
 }
 
-.service-item:hover .second-service-icon {
+.work-item:hover .second-work-icon {
     background-image: url(../images/ey-logo.png);
 }
 
-.service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
+/* Education */
+
+.education .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
+.education-item {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
 }
 
-.service-item .fourth-service-icon {
-    background-image: url(../images/fourth-white-icon.png);
+.education-item h4 {
+    transition: all 0.5s;
 }
 
-.service-item:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
+.education-item p {
+    transition: all 0.5s;
 }
 
+.education-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
 
+.education-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.education-item:hover p {
+    color: #4a4a4a;
+}
+
+.education-item .education-icon {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.education-item .first-education-icon {
+    background-image: url(../images/iitb-logo.png);
+}
+
+.education-item:hover .first-education-icon {
+    background-image: url(../images/iitb-logo.png);
+}
+
+.education-item .second-education-icon {
+    background-image: url(../images/dtu-logo.png);
+}
+
+.education-item:hover .second-education-icon {
+    background-image: url(../images/dtu-logo.png);
+}
 /* My Work */
 
 section.my-work .section-heading {
