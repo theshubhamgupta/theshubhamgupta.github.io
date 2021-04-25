@@ -495,20 +495,153 @@ button:hover {
 }
 
 .education-item .first-education-icon {
-    background-image: url(../images/iitb-logo.png);
+	width: 120px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/cfa.png);
 }
 
 .education-item:hover .first-education-icon {
-    background-image: url(../images/iitb-logo.png);
+	width: 120px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/cfa.png);
 }
 
 .education-item .second-education-icon {
-    background-image: url(../images/dtu-logo.png);
+    background-image: url(../images/iitb-logo.png);
 }
 
 .education-item:hover .second-education-icon {
+    background-image: url(../images/iitb-logo.png);
+}
+
+.education-item .third-education-icon {
     background-image: url(../images/dtu-logo.png);
 }
+
+.education-item:hover .third-education-icon {
+    background-image: url(../images/dtu-logo.png);
+}
+
+.education-item .fourth-education-icon {
+	width: 250px;
+    height:60px;
+    background-image: url(../images/sathaye-invert.png);
+}
+
+.education-item:hover .fourth-education-icon {
+	width: 250px;
+    height:60px;
+    background-image: url(../images/sathaye.png);
+}
+
+.education-item .fifth-education-icon {
+    background-image: url(../images/bcslogo.png);
+}
+
+.education-item:hover .fifth-education-icon {
+    background-image: url(../images/bcslogo.png);
+}
+
+/* International Exposure */
+
+.intexp .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.intexp-item {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+
+.intexp-item h4 {
+    transition: all 0.5s;
+}
+
+.intexp-item p {
+    transition: all 0.5s;
+}
+
+.intexp-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.intexp-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.intexp-item:hover p {
+    color: #4a4a4a;
+}
+
+.intexp-item .intexp-icon {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.intexp-item .first-intexp-icon {
+	width: 120px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/u7.gif);
+}
+
+.intexp-item:hover .first-intexp-icon {
+	width: 120px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/u7.gif);
+}
+
+.intexp-item .second-intexp-icon {
+	width: 200px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/uofa-invert.png);
+}
+
+.intexp-item:hover .second-intexp-icon {
+	width: 200px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/uofa.png);
+}
+
+.intexp-item .third-intexp-icon {
+	width: 200px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/ui-logo.png);
+}
+
+.intexp-item:hover .third-intexp-icon {
+	width: 200px;
+    height:100px;
+	margin-bottom: 0px;
+    background-image: url(../images/ui-logo.png);
+}
+
+.intexp-item .fourth-intexp-icon {
+	width: 300px;
+    height:80px;
+    background-image: url(../images/cityu-logo.png);
+}
+
+.intexp-item:hover .fourth-education-icon {
+	width: 300px;
+    height:80px;
+    background-image: url(../images/cityu-logo.png);
+}
+
 /* My Work */
 
 section.my-work .section-heading {
