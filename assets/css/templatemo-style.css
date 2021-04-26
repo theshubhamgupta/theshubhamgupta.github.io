@@ -398,8 +398,8 @@ button:hover {
 }
 
 .work-item {
-    margin-bottom: 10px;
-    padding: 50px;
+    margin-bottom: 8px;
+    padding: 30px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
 }
@@ -428,10 +428,28 @@ button:hover {
     width: 90px;
     height: 90px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s;
+}
+
+.work-item .date-card{
+  width:300px;
+  padding:0px;	
+  text-align: right;
+}
+
+.work-item:hover .date-card{
+  color: #1e1e1e;
+}
+
+.work-item .right {
+  float: right;
+}
+
+.work-item .first-work-icon {
+    background-image: url(../images/wells-fargo-logo.png);
 }
 
 .work-item .first-work-icon {
@@ -458,8 +476,8 @@ button:hover {
 }
 
 .education-item {
-    margin-bottom: 10px;
-    padding: 50px;
+    margin-bottom: 8px;
+    padding: 30px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
 }
@@ -488,22 +506,22 @@ button:hover {
     width: 90px;
     height: 90px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-size: contain;
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
 
 .education-item .first-education-icon {
-	width: 120px;
-    height:100px;
+	width: 130px;
+    height:110px;
 	margin-bottom: 0px;
     background-image: url(../images/cfa.png);
 }
 
 .education-item:hover .first-education-icon {
-	width: 120px;
-    height:100px;
+	width: 130px;
+    height:110px;
 	margin-bottom: 0px;
     background-image: url(../images/cfa.png);
 }
