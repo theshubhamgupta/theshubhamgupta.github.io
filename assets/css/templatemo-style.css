@@ -512,6 +512,21 @@ button:hover {
     transition: all 0.5s;
 }
 
+.education-item .date-card{
+  width:300px;
+  padding:0px;	
+  text-align: right;
+}
+
+.education-item:hover .date-card{
+  color: #1e1e1e;
+}
+
+.education-item .right {
+  float: right;
+}
+
+
 .education-item .first-education-icon {
 	width: 130px;
     height:110px;
@@ -606,44 +621,58 @@ button:hover {
     transition: all 0.5s;
 }
 
+.intexp-item .date-card{
+  width:300px;
+  padding:0px;	
+  text-align: right;
+}
+
+.intexp-item:hover .date-card{
+  color: #1e1e1e;
+}
+
+.intexp-item .right {
+  float: right;
+}
+
 .intexp-item .first-intexp-icon {
 	width: 120px;
     height:100px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
     background-image: url(../images/u7.gif);
 }
 
 .intexp-item:hover .first-intexp-icon {
 	width: 120px;
     height:100px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
     background-image: url(../images/u7.gif);
 }
 
 .intexp-item .second-intexp-icon {
 	width: 200px;
-    height:100px;
+    height:60px;
 	margin-bottom: 0px;
     background-image: url(../images/uofa-invert.png);
 }
 
 .intexp-item:hover .second-intexp-icon {
 	width: 200px;
-    height:100px;
+    height:60px;
 	margin-bottom: 0px;
     background-image: url(../images/uofa.png);
 }
 
 .intexp-item .third-intexp-icon {
 	width: 200px;
-    height:100px;
+    height:80px;
 	margin-bottom: 0px;
     background-image: url(../images/ui-logo.png);
 }
 
 .intexp-item:hover .third-intexp-icon {
 	width: 200px;
-    height:100px;
+    height:80px;
 	margin-bottom: 0px;
     background-image: url(../images/ui-logo.png);
 }
@@ -651,12 +680,14 @@ button:hover {
 .intexp-item .fourth-intexp-icon {
 	width: 300px;
     height:80px;
+	margin-bottom: 10px;
     background-image: url(../images/cityu-logo.png);
 }
 
 .intexp-item:hover .fourth-education-icon {
 	width: 300px;
     height:80px;
+	margin-bottom: 10px;
     background-image: url(../images/cityu-logo.png);
 }
 
