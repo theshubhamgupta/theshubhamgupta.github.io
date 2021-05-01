@@ -860,7 +860,7 @@ section.contact-me {
     border-bottom: none;
 }
 
-section.contact-me .section-heading {
+section.contact-me .container .section-heading {
 	height:215px;
 	width: 100px
     text-align: center;
