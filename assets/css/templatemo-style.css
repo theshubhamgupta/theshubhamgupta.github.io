@@ -860,6 +860,12 @@ section.contact-me {
     border-bottom: none;
 }
 
+section.contact-me .section-heading {
+	height:215px;
+	width: 100px
+    text-align: center;
+    padding: 80px 45px 50px 45px;
+}
 #contact input {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
