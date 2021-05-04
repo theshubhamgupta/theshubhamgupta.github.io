@@ -486,7 +486,7 @@ button:hover {
     transition: all 0.5s;
 }
 
-.education-item p {
+.education-item ul {
     transition: all 0.5s;
 }
 
@@ -498,8 +498,22 @@ button:hover {
     color: #1e1e1e;
 }
 
-.education-item:hover p {
+.education-item:hover ul {
     color: #4a4a4a;
+}
+
+.education-item ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.education-item ul li {
+  display: list-item;;
 }
 
 .education-item .education-icon {
