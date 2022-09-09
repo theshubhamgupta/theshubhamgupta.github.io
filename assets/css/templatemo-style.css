@@ -456,10 +456,6 @@ button:hover {
     background-image: url(../images/wells-fargo-logo.png);
 }
 
-.work-item .first-work-icon {
-    background-image: url(../images/wells-fargo-logo.png);
-}
-
 .work-item:hover .first-work-icon {
     background-image: url(../images/wells-fargo-logo.png);
 }
@@ -470,6 +466,14 @@ button:hover {
 
 .work-item:hover .second-work-icon {
     background-image: url(../images/ey-logo.png);
+}
+
+.work-item .third-work-icon {
+    background-image: url(../images/goldman-sachs.png);
+}
+
+.work-item:hover .third-work-icon {
+    background-image: url(../images/goldman-sachs.png);
 }
 
 /* Education */
